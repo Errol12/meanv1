@@ -1,27 +1,14 @@
-# NgApp
+1.Create angular app with routing
+	>>ng new Proj1 --routing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+2.ng build to create a dist folder
 
-## Development server
+3.npm install --save express --body-parser
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4.Load server.js
 
-## Code scaffolding
+5.Connect to mongodb -->Download mongodb compass
+					 --> Follow steps on https://stackoverflow.com/questions/20796714/how-do-i-start-mongo-db-from-windows
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+6.Use Mongoose --> convert db object into js compatible
+					To install > npm install --save mongoose
