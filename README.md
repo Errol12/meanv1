@@ -15,6 +15,6 @@
 
 7.MongoDb compass --> MongoDb visualisation tool
 
-
+8.Install bootstrap -->		npm install --save bootstrap
 
 
