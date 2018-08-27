@@ -10,5 +10,11 @@
 5.Connect to mongodb -->Download mongodb compass
 					 --> Follow steps on https://stackoverflow.com/questions/20796714/how-do-i-start-mongo-db-from-windows
 
-6.Use Mongoose --> convert db object into js compatible
+6.Use Mongoose --> convert db object into js compatible (MongoDb ORM)
 					To install > npm install --save mongoose
+
+7.MongoDb compass --> MongoDb visualisation tool
+
+
+
+
