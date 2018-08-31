@@ -10,10 +10,19 @@ import {FormsModule} from '@angular/forms';
 
 
 export class VideoDetailComponent implements OnInit {
+	private editTitle: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  ngOnChanges(){
+  	this.editTitle = false;
+  }
+
+
+  onTitleClick(){
+  	this.editTitle = true;
+  }
 }
